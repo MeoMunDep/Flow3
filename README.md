@@ -28,7 +28,7 @@ This tool helps you monitor your Flow3 accounts automatically. Follow these simp
 #### 1. Download the files
 
 Download all the files into a single folder:
-- `main.py` (the main script)
+- `meomundep.py` (the main script)
 - `run.bat` (for Windows users)
 - `run.sh` (for Mac/Linux users)
 - `requirements.txt` (contains required packages)
