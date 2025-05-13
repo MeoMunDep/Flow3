@@ -37,7 +37,7 @@ Download all the files into a single folder:
 
 Create two text files in the same folder:
 
-1. `tokens.txt` - Each line should contain one Flow3 access token
+1. `tokens.txt` - Each line should contain one Flow3 access token, get it from here: https://t.me/KeoAirDropFreeNee/1787
 2. `proxies.txt` (optional) - Each line should contain one proxy in the format `http://user:pass@host:port` or `http://host:port`
 
 Example `tokens.txt`:
