@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Installing required packages..."
-pip install colorama pyfiglet requests python-dotenv pyjwt
+pip install colorama pyfiglet requests python-dotenv pyjwt pycryptodome
 
 echo "Creating requirements.txt file..."
 echo "colorama" > requirements.txt
