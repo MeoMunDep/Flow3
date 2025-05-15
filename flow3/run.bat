@@ -18,14 +18,12 @@ if not exist tokens.txt (
 )
 
 echo Setting environment variables...
-if not exist .env echo .env created & (
-    echo MAX_THREADS=10
-    echo SLEEP_TIME=2
-    echo DEFAULT_WALLETS=100
-    echo TIMEOUT=10
-    echo SKIP_ERROR_PROXIES=False
-) > .env
-
+if not exist .env (
+	echo Copying configuration file
+	copy .env.example .env
+) else (
+	echo Skipping .env copying
+)
 
 echo Starting Flow3 automation tool...
 python meomundep.py
